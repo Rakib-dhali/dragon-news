@@ -5,7 +5,7 @@ import user from "../../public/assets/user.png"
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between max-w-285 mx-auto py-4 ">
-        <h2 className="font-unifrakturmaguntia text-4xl text-center"><Link href="/">Dragon News</Link></h2>
+        <h2 className="font-unifrakturmaguntia text-4xl text-center invisible"><Link href="/">Dragon News</Link></h2>
         <ul className="flex items-center justify-center gap-3 leading-6 text-lg text-[#706F6F] font-medium">
            <Link className="hover:text-black " href="/home">Home</Link>
            <Link className="hover:text-black " href="/about">About</Link>
