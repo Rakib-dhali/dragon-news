@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 @import "tailwindcss";
+
+.font-unifrakturmaguntia {
+  font-family: "UnifrakturMaguntia", cursive;
+}
